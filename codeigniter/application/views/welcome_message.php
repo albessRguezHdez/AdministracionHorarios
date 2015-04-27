@@ -65,13 +65,21 @@
 	</style>
 </head>
 <body>
-
+    <form method="POST" action="">
+        <label for="txtUsuario">Nombre usuario:</label>
+        <input type="text" id="txtUsuario" name="txtUsuario"/>
+        <label for="txtPassword">Contraseña:</label>
+        <input type="text" id="txtPassword" name="txtPassword"/>
+        <input type="submit" id="btnSubmit" value="Iniciar sesion"/>
+    </form>
+        
 <div id="container">
 	<h1>Welcome to CodeIgniter!</h1>
 
 	<div id="body">
 		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
-
+                <p>Aquí alterando la línea de código a ver que sucede</p>
+                
 		<p>If you would like to edit this page you'll find it located at:</p>
 		<code>application/views/welcome_message.php</code>
 
