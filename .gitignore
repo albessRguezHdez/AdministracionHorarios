@@ -1,1 +1,10 @@
+<<<<<<< HEAD
 /nbproject/private/
+=======
+*/config/development
+*/logs/log-*.php
+*/logs/!index.html
+*/cache/*
+*/cache/!index.html
+*/cache/!.htaccess
+>>>>>>> 468d0e468a4b0a485ef6992ecd82845b862efff1
