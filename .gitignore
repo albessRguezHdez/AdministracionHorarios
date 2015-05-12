@@ -1,7 +1,14 @@
+<<<<<<< HEAD
+/nbproject/private/
+=======
 */config/development
 */logs/log-*.php
 */logs/!index.html
 */cache/*
 */cache/!index.html
 */cache/!.htaccess
+<<<<<<< HEAD
 /codeigniter/nbproject/private/
+=======
+>>>>>>> 468d0e468a4b0a485ef6992ecd82845b862efff1
+>>>>>>> 6f0e9337ea62658173dfa2cd86a3bf0a5f6b82e9
