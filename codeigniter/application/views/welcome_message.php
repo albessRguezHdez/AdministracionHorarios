@@ -3,11 +3,11 @@
 <head>
 	<meta charset="utf-8">
 	<title>INICIAR SESIÓN</title>
-        <link rel="stylesheet" href="../bootstrap/css/bootstrap.css" type="text/css"/>
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap-theme.css.map" type="text/css"/>
 </head>
 <body>
     <p class="bg-primary">INICIAR SESIÓN</p>
-    <p class="bg-info">BIENVENIDO A ADMINISTRA HORARIOS UV</p>
+    <p class="bg-info">BIENVENIDO</p>
     <form>
         <div class="form-group">
             <label for="txtUsuario">Nombre usuario:</label>
