@@ -4,7 +4,7 @@
     </head>
     <body>
         Datos desde servidor: <br>
-        <?php echo $username.' '.$password; ?>
+        <?php echo $mensaje; ?>
     </body>
 </html>
 <?php

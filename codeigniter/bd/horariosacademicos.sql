@@ -94,10 +94,10 @@ CREATE TABLE IF NOT EXISTS `horario` (
 --
 
 CREATE TABLE IF NOT EXISTS `maestros` (
-  `IDM` int(11) NOT NULL,
   `Nombre` varchar(20) COLLATE utf8_spanish_ci NOT NULL,
   `ApellidoP` varchar(20) COLLATE utf8_spanish_ci NOT NULL,
-  `ApellidoM` varchar(20) COLLATE utf8_spanish_ci NOT NULL
+  `ApellidoM` varchar(20) COLLATE utf8_spanish_ci NOT NULL,
+  `IDM` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
 -- --------------------------------------------------------
@@ -130,7 +130,7 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 --
 
 INSERT INTO `usuarios` (`IDuser`, `Usuario`, `Password`) VALUES
-(1, 'valdemar@gmail.com', 'ramos');
+(1, 'jesus@gmail.com', 'rohe1');
 
 --
 -- Índices para tablas volcadas

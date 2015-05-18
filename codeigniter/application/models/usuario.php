@@ -4,7 +4,7 @@
     
 class Usuario extends CI_Model {
     function obtenerUsuario($username){
-        $this->db->from('usuario');
+        $this->db->from('usuarios');
         $this->db->where('username', $username);
         $q=$this->db->get();
         
